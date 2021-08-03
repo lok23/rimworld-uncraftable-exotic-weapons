@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<NU43_HumiliatorBullet_SuccessMessage>{0} stripped {1} of their weapons and armor!</NU43_HumiliatorBullet_SuccessMessage>
+	<A34_HarvesterBullet_SuccessMessage>{0} harvested {1}'s {2}!</A34_HarvesterBullet_SuccessMessage>
+</LanguageData>

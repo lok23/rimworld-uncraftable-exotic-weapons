@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UncraftableRareBaseGunWithQuality">
+    <defName>Gun_XM8_Prototype</defName>
+    <label>xm8 prototype</label>
+    <description>An experimental assault rifle from 3,500 years ago. More accuracy and damage, but slower rate of fire compared to regular assault rifles.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/XM8</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <Mass>4.0</Mass>
+	  <MarketValue>600</MarketValue>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>2.40</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_XM8_Prototype</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_XM8_Prototype</defName>
+    <label>xm8 prototype bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="UncraftableRareBaseGunWithQuality">
+    <defName>Gun_NU43_Humiliator</defName>
+    <label>nu43 humiliator</label>
+    <description>This weapon was designed to disrupt riots by force disarming rioters. Has the side effect of also removing clothes.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/NU43</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <thingSetMakerTags>
+	  <li>RewardStandardLowFreq</li>
+	  <li>RewardStandardQualitySuper</li>
+	</thingSetMakerTags>
+    <statBases>
+      <Mass>2.0</Mass>
+	  <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_NU43_Humiliator</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>21.9</range>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_NU43_Humiliator</defName>
+    <label>nu43 humiliator bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>45</speed>
+    </projectile>
+	<thingClass>UEW_UncraftableExoticWeapons.NU43_HumiliatorBullet</thingClass>
+  </ThingDef>
+  
+  <ThingDef ParentName="UncraftableRareBaseGunWithQuality">
+    <defName>Gun_A34_Harvester</defName>
+    <label>a34 harvester</label>
+    <description>The creation of a twisted mind. On hit has a percentage chance to remove a random organ.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/A34</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <thingSetMakerTags>
+	  <li>RewardStandardLowFreq</li>
+	  <li>RewardStandardQualitySuper</li>
+	</thingSetMakerTags>
+    <statBases>
+      <Mass>2.0</Mass>
+	  <MarketValue>650</MarketValue>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_A34_Harvester</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>24.9</range>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_A34_Harvester</defName>
+    <label>a34 harvester bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>45</speed>
+    </projectile>
+	<thingClass>UEW_UncraftableExoticWeapons.A34_HarvesterBullet</thingClass>
+	<modExtensions>
+    <li Class="UEW_UncraftableExoticWeapons.ModExtension_A34_HarvesterBullet">
+        <addHediffChance>1.00</addHediffChance>
+        <hediffToAdd>MissingBodyPart</hediffToAdd>
+    </li>
+</modExtensions>
+  </ThingDef>
+</Defs>
+

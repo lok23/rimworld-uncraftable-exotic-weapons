@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UncraftableExoticWeapons\Assemblies\UncraftableExoticWeapons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UncraftableExoticWeapons\Source\UncraftableExoticWeapons\UncraftableExoticWeapons\obj\Debug\UncraftableExoticWeapons.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UncraftableExoticWeapons\Source\UncraftableExoticWeapons\UncraftableExoticWeapons\obj\Debug\UncraftableExoticWeapons.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UncraftableExoticWeapons\Source\UncraftableExoticWeapons\UncraftableExoticWeapons\obj\Debug\UncraftableExoticWeapons.dll
