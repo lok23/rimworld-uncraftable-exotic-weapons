@@ -1,5 +1,4 @@
-https://steamcommunity.com/sharedfiles/filedetails/?id=2560945335
-
+![steam_file_image](steam_file_image.png)
 
 
 What is this?
