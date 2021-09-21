@@ -1,7 +1,7 @@
 ![steam_file_image](steam_file_image.jpg)
 
 
-[h1] What is this? [/h1]
+<h1> What is this? </h1>
 
 Uncraftable Exotic Weapons! This mod adds uncraftable weapons to the game, which must either be purchased from merchants, or acquired as quest rewards.
 
