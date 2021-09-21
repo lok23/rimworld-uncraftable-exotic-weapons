@@ -1,12 +1,12 @@
 ![steam_file_image](steam_file_image.jpg)
 
 
-What is this?
+[h1] What is this? [/h1]
 
 Uncraftable Exotic Weapons! This mod adds uncraftable weapons to the game, which must either be purchased from merchants, or acquired as quest rewards.
 
 
-Weapons
+[h1] Weapons [/h1]
 
 A34_Harvester
 - This gun can harvest an enemy's undamaged organs. Can potentially harvest multiple organs, though harvesting a heart or liver results in their instant death.
@@ -18,7 +18,7 @@ XM8_Prototype
 - Similar to assault rifle, has higher damage and accuracy but slower rate of fire.
 
 
-Questions
+[h1] Questions [/h1]
 
 Q: Do these guns only work on living pawns?
 
