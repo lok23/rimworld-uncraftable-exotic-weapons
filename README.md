@@ -1,4 +1,4 @@
-![steam_file_image](steam_file_image.png)
+![steam_file_image](steam_file_image.jpg)
 
 
 What is this?
